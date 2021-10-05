@@ -1,8 +1,8 @@
 async function main() {
-    const data = await axios.get('data.json').data
+    const data = await axios.get('data.json')
     var app = new Vue({
         el: '#app',
-        data: data
+        data: data.data
     })
 }
 
