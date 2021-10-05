@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <img :src="userPhoto" id='user-photo' class="user-photo"></img>
+        <h1 id="user-name" class="user-name">{{ userName }}</h1>
+        <div id='links' class='links'>
+            <div class='link' v-for='link in links' v-bind:key="link.id">
+                <a target='_blank' :href='link.href'>
+                    {{ link.title }}
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>

@@ -1,0 +1,16 @@
+{
+    "userPhoto": "link.to/photo.jpg",
+    "userName": "John Doe",
+    "links": [
+        {
+            "id": 0,
+            "href": "https://www.link1.com/",
+            "title": "Link 1"
+        },
+        {
+            "id": 1,
+            "href": "https://www.link2.com/",
+            "title": "Link 2"
+        }
+    ]
+}
