@@ -43,4 +43,6 @@ body {
     margin-top: 3vh;
     border-radius: 50%;
     width: 24vh;
+    height: 24vh;
+    object-fit: cover;
 }
