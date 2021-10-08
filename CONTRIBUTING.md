@@ -5,6 +5,13 @@ email, or any other method with the owners of this repository before making a ch
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
+## Development
+
+There's a problem with CORS if you open the HTML directly in your browser, there's 2 ways I see to avoid this:
+1) Use XAMPP, Apache or something like that in your localhost
+2) Use GitHub Pages (you will need to commit-push to see your changes and will need to wait some time until github update the page)
+  2.1) If you gonna use GitHub Pages and will only change the style.css, I recommend you to edit style.css inside Chrome DevTools for better productivity (don't forget to save your changes (a.k.a.: copy and paste to your code editor and save))
+
 ## Pull Request Process
 
 1. If you are using any media resource (image, font, etc), please, ensure that don't have any copyright restrition.
