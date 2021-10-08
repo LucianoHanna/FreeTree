@@ -21,3 +21,7 @@ My goal in this project is to have an alternative to Linktree using static page,
 ## How to use
 
 You can use any static website hosting, e.g.: GitHub Pages, DigitalOcean App.
+
+## Example
+
+https://lucianohanna.github.io/FreeTree/
