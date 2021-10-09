@@ -46,3 +46,10 @@ body {
     height: 24vh;
     object-fit: cover;
 }
+
+@media only screen and (min-width: 1300px) {
+    .link {
+        margin-left: 30%;
+        width: 40%;
+    }
+}
