@@ -9,7 +9,7 @@
         <img :src="userPhoto" id='user-photo' class="user-photo"></img>
         <h1 id="user-name" class="user-name">{{ userName }}</h1>
         <div id='links' class='links'>
-            <div class='link' v-for='link in links' v-bind:key="link.id">
+            <div class='link' v-bind:class='link.style' v-for='link in links' v-bind:key="link.id">
                 <a target='_blank' :href='link.href'>
                     {{ link.title }}
                 </a>
